@@ -29,7 +29,7 @@ export default function Navbar() {
 
     return (
         <div
-            className={`navbar bg-[#fff6e9] shadow-sm fixed top-0 left-0 w-full transition-transform duration-300 z-50 ${
+            className={`text-black navbar bg-[#fff6e9] shadow-sm fixed top-0 left-0 w-full transition-transform duration-300 z-50 ${
             hidden
                 ? "-translate-y-full"
                 : "translate-y-0"}`}>
@@ -87,7 +87,7 @@ export default function Navbar() {
                     </label>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        className="text-black bg-white menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <li>
                             <Link href="/">Home</Link>
                         </li>
