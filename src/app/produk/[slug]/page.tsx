@@ -55,7 +55,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
               ))}
             </ul>
           </div>
-          <div className="bg-[#f9e2cc] p-6 rounded-xl">
+          <div className="bg-[#f9e2cc] text-black p-6 rounded-xl">
             <h2 className="text-lg font-semibold mb-4">Informasi Tambahan</h2>
             <p className="text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: product.info }} />
           </div>
