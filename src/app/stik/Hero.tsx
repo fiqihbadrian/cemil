@@ -20,7 +20,7 @@ export default function Hero() {
                     height={700} />
             </div>
             <div
-                className="hero-content relative z-10 flex flex-col items-center text-center">
+                className="text-black hero-content relative z-10 flex flex-col items-center text-center">
                 <h1 className="text-5xl lg:text-6xl font-bold">Stik</h1>
                 <p className="mt-2 text-lg lg:text-2xl">Teman Asik, Setiap Gigitan</p>
             </div>
