@@ -20,7 +20,7 @@ export default function Hero() {
                         siap jadi favorit kamu.
                     </p>
                     <button
-                        className="btn bg-[#e07a5f] hover:bg-[#db8974] text-white rounded-full px-6 py-2 text-sm lg:px-10 lg:text-base">
+                        className="btn bg-[#e07a5f] hover:bg-[#db8974] text-white btn-circle px-6 py-2 text-sm lg:px-10 lg:text-base">
                         Produk Kami
                     </button>
                 </div>
