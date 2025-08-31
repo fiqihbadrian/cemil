@@ -7,9 +7,9 @@ export default function CemilanKami() {
             <h1 className="text-center text-3xl pt-10 text-white font-bold">
                 Cemilan Kami
             </h1>
-            <div className="mt-10 flex justify-center gap-25 max-sm:gap-10 flex-wrap bg-white text-black">
+            <div className="mt-10 flex justify-center gap-25 max-sm:gap-10 flex-wrap">
                 {/* Card 1 */}
-                <div className="card w-72 shadow-sm rounded-2xl">
+                <div className="card bg-white text-black w-72 shadow-sm rounded-2xl">
                     <figure className="flex justify-center pt-6">
                         <div className="w-40 h-40 overflow-hidden rounded-xl">
                             <Image src="/assets/kripik/kripik.png" alt="kripik" className="w-full h-full object-cover" width={160} height={160}/>
@@ -29,7 +29,7 @@ export default function CemilanKami() {
                     </div>
                 </div>
                 {/* Card 2 */}
-                <div className="card w-72 shadow-sm rounded-2xl">
+                <div className="card bg-white text-black w-72 shadow-sm rounded-2xl">
                     <figure className="flex justify-center pt-6">
                         <div className="w-40 h-40 overflow-hidden rounded-xl">
                             <Image src="/assets/stik/stik.png" alt="stik" className="w-full h-full object-cover" width={160} height={160}/>
