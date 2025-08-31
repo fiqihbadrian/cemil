@@ -13,7 +13,7 @@ interface ProductCardProps {
 
 export default function ProductCard({ product }: ProductCardProps) {
   return (
-    <div className="card w-56 bg-white shadow-md rounded-3xl">
+    <div className="card w-56 bg-white text-black shadow-md rounded-3xl">
       <figure className="px-6 pt-6">
         <div
           className="w-40 h-40 flex items-center justify-center overflow-hidden rounded-2xl border-8 border-[#8c6a4f]">
