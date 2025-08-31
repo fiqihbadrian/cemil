@@ -30,7 +30,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         <h2 className="text-lg font-medium">{product.name}</h2>
         <Link
           href={product.link}
-          className="btn bg-transparent hover:bg-[#6b4e36] hover:text-white rounded-full px-8 py-2">
+          className="btn bg-transparent text-black hover:bg-[#6b4e36] hover:text-white rounded-full px-8 py-2">
           Lihat
         </Link>
       </div>
