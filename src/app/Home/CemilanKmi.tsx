@@ -9,7 +9,7 @@ export default function CemilanKami() {
             </h1>
             <div className="mt-10 flex justify-center gap-25 max-sm:gap-10 flex-wrap">
                 {/* Card 1 */}
-                <div className="card bg-base-100 w-72 shadow-sm rounded-2xl">
+                <div className="card bg-white text-black w-72 shadow-sm rounded-2xl">
                     <figure className="flex justify-center pt-6">
                         <div className="w-40 h-40 overflow-hidden rounded-xl">
                             <Image src="/assets/kripik/kripik.png" alt="kripik" className="w-full h-full object-cover" width={160} height={160}/>
@@ -22,14 +22,14 @@ export default function CemilanKami() {
                         </p>
                         <div className="card-actions justify-center mt-4">
                             <Link href={"/kripik"}><button
-                                className="btn bg-transparent hover:bg-[#6b4e36] hover:text-white rounded-full px-8 py-2">
+                                className="btn bg-transparent text-black hover:bg-[#6b4e36] hover:text-white rounded-full px-8 py-2">
                                 Lihat
                             </button></Link>
                         </div>
                     </div>
                 </div>
                 {/* Card 2 */}
-                <div className="card bg-base-100 w-72 shadow-sm rounded-2xl">
+                <div className="card bg-white text-black w-72 shadow-sm rounded-2xl">
                     <figure className="flex justify-center pt-6">
                         <div className="w-40 h-40 overflow-hidden rounded-xl">
                             <Image src="/assets/stik/stik.png" alt="stik" className="w-full h-full object-cover" width={160} height={160}/>
@@ -42,7 +42,7 @@ export default function CemilanKami() {
                         </p>
                         <div className="card-actions justify-center mt-4">
                         <Link href={"/stik"}><button
-                                className="btn bg-transparent hover:bg-[#6b4e36] hover:text-white rounded-full px-8 py-2">
+                                className="btn bg-transparent text-black hover:bg-[#6b4e36] hover:text-white rounded-full px-8 py-2">
                                 Lihat
                             </button></Link>
                         </div>
