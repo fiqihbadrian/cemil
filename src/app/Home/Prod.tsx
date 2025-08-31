@@ -57,14 +57,6 @@ export default function ProdukUnggulan() {
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center mt-10">
-                <Link href={"/produk"}>
-                <button
-                    className="btn bg-[#8c6a4f] hover:bg-[#6b4e36] text-white rounded-full px-10 py-2">
-                    LIHAT SEMUA
-                </button>
-                </Link>
-            </div>
         </div>
     )
 }
