@@ -7,7 +7,7 @@ export default function ProdukUnggulan() {
             <h1 className="text-center text-3xl font-bold text-[#2b2b2b] mb-10">
                 Produk Unggulan
             </h1>
-            <div className="flex justify-center gap-10 flex-wrap">
+            <div className="text-black flex justify-center gap-10 flex-wrap">
                 <div className="card w-56 bg-white shadow-md rounded-3xl">
                     <figure className="px-6 pt-6">
                         <div
