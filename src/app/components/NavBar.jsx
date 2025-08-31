@@ -92,30 +92,10 @@ export default function Navbar() {
                             <Link href="/">Home</Link>
                         </li>
                         <li>
-                            <details>
-                                <summary>Kripik</summary>
-                                <ul className="p-2">
-                                    <li>
-                                        <Link href="/kripik/link1">Link 1</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/kripik/link2">Link 2</Link>
-                                    </li>
-                                </ul>
-                            </details>
+                            <Link href="/kripik">Kripik</Link>
                         </li>
                         <li>
-                            <details>
-                                <summary>Stik</summary>
-                                <ul className="p-2">
-                                    <li>
-                                        <Link href="/stik/link1">Link 1</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/stik/link2">Link 2</Link>
-                                    </li>
-                                </ul>
-                            </details>
+                            <Link href="/stik">Stik</Link>
                         </li>
                     </ul>
                 </div>
