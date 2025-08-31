@@ -13,7 +13,7 @@ export default function Hero() {
                     height={700}    
                     />
                 <Image
-                    src="/assets/stik/stik.png"
+                    src="/assets/stik/stikkk.png"
                     className="absolute bottom-0 right-0 w-[700px] translate-x-1/4 translate-y-1/4"
                     alt="Kripik Oranye"
                     width={700}
