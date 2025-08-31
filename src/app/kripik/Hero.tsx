@@ -23,7 +23,7 @@ export default function Hero() {
             </div>
             {/* Konten */}
             <div
-                className="hero-content relative z-10 flex flex-col items-center text-center">
+                className="text-black hero-content relative z-10 flex flex-col items-center text-center">
                 <h1 className="text-5xl lg:text-6xl font-bold">Kripik</h1>
                 <p className="mt-2 text-lg lg:text-2xl">Setiap Gigitan, Cerita Baru</p>
             </div>
