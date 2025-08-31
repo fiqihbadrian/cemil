@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function CemilanKami() {
     return (
-        <div className="bg-[#b08968] pb-20">
+        <div id="cemilan" className="bg-[#b08968] pb-20">
             <h1 className="text-center text-3xl pt-10 text-white font-bold">
                 Cemilan Kami
             </h1>
