@@ -7,7 +7,7 @@ export default function Hero() {
                 className=" hero-content flex-col-reverse lg:flex-row-reverse gap-6 lg:gap-20">
                 {/* Gambar */}
                 <Image src="/assets/home.png" className="w-60 max-sm:w-80 lg:w-[500px]" alt="Cemilan" width={160} height={160}/> {/* Teks */}
-                <div className="text-center lg:text-left lg:ml-15 ">
+                <div className="text-center lg:text-left lg:ml-15 text-black">
                     <h1
                         className="text-3xl max-sm:text-4xl lg:text-6xl font-bold leading-snug lg:leading-tight">
                         Camilan Renyah,
