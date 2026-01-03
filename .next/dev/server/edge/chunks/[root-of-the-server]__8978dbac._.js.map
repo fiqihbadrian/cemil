@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/middleware.ts"],"sourcesContent":["import { NextResponse } from 'next/server';\r\nimport type { NextRequest } from 'next/server';\r\n\r\nexport function middleware(request: NextRequest) {\r\n  const { pathname } = request.nextUrl;\r\n\r\n  // Ubah pathname menjadi huruf kecil\r\n  const lowercasePathname = pathname.toLowerCase();\r\n\r\n  // Jika pathname asli tidak sama dengan versi lowercase-nya,\r\n  // lakukan redirect ke URL yang diubah.\r\n  if (pathname !== lowercasePathname) {\r\n    return NextResponse.redirect(new URL(lowercasePathname, request.url));\r\n  }\r\n\r\n  return NextResponse.next();\r\n}"],"names":[],"mappings":";;;;AAAA;AAAA;;AAGO,SAAS,WAAW,OAAoB;IAC7C,MAAM,EAAE,QAAQ,EAAE,GAAG,QAAQ,OAAO;IAEpC,oCAAoC;IACpC,MAAM,oBAAoB,SAAS,WAAW;IAE9C,4DAA4D;IAC5D,uCAAuC;IACvC,IAAI,aAAa,mBAAmB;QAClC,OAAO,gMAAY,CAAC,QAAQ,CAAC,IAAI,IAAI,mBAAmB,QAAQ,GAAG;IACrE;IAEA,OAAO,gMAAY,CAAC,IAAI;AAC1B"}}]
+}

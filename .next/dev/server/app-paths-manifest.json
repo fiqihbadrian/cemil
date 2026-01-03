@@ -1,0 +1,5 @@
+{
+  "/kripik/page": "app/kripik/page.js",
+  "/page": "app/page.js",
+  "/produk/[slug]/page": "app/produk/[slug]/page.js"
+}

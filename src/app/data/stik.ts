@@ -1,4 +1,6 @@
-export const stikProducts = [
+import type { Product } from "./types";
+
+export const stikProducts: Product[] = [
   {
     id: 1,
     name: "Stik Bawang",

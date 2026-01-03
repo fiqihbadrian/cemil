@@ -1,17 +1,52 @@
 // src/app/produk/[slug]/page.tsx
 
-import React from 'react';
-import Image from 'next/image';
-import { allProducts } from '@/app/data/allProducts'; 
-import WhatsAppButton from '@/app/components/WhatsAppButton'; // Impor komponen baru
+import React from "react";
+import Image from "next/image";
+import { notFound } from "next/navigation";
+import { allProducts } from "@/app/data/allProducts";
+import type { Product } from "@/app/data/types";
+import WhatsAppButton from "@/app/components/WhatsAppButton";
 
-// ... kode generateStaticParams tetap sama
+function extractSlug(product: Product): string {
+  if (product.slug) return product.slug;
+  if (product.link) {
+    const parts = product.link.split("/").filter(Boolean);
+    return parts[parts.length - 1];
+  }
+  return "";
+}
 
-export default function ProductPage({ params }: { params: { slug: string } }) {
-  const product = allProducts.find(p => p.slug === params.slug);
+function findProductBySlug(slug: string): Product | undefined {
+  const target = slug.toLowerCase();
+  return allProducts.find((p) => {
+    const direct = p.slug?.toLowerCase();
+    if (direct === target) return true;
+    if (p.link) {
+      const linkParts = p.link.split("/").filter(Boolean);
+      const linkSlug = linkParts[linkParts.length - 1]?.toLowerCase();
+      if (linkSlug === target) return true;
+    }
+    return false;
+  });
+}
+
+export function generateStaticParams() {
+  return allProducts
+    .map((product) => extractSlug(product))
+    .filter(Boolean)
+    .map((slug) => ({ slug }));
+}
+
+export default async function ProductPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const product = findProductBySlug(slug);
 
   if (!product) {
-    return <div>Produk tidak ditemukan.</div>;
+    return notFound();
   }
 
   return (

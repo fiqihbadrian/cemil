@@ -1,5 +1,6 @@
 
-import { kripikProducts } from './kripik';
-import { stikProducts } from './stik';
+import type { Product } from "./types";
+import { kripikProducts } from "./kripik";
+import { stikProducts } from "./stik";
 
-export const allProducts = [...kripikProducts, ...stikProducts];
+export const allProducts: Product[] = [...kripikProducts, ...stikProducts];

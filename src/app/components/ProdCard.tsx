@@ -1,14 +1,10 @@
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import type { Product } from "@/app/data/types";
 
 interface ProductCardProps {
-  product: {
-    id: number;
-    name: string;
-    image: string;
-    link: string;
-  };
+  product: Product;
 }
 
 export default function ProductCard({ product }: ProductCardProps) {
@@ -29,7 +25,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       <div className="card-body text-center">
         <h2 className="text-lg font-medium">{product.name}</h2>
         <Link
-          href={product.link}
+          href={product.link ?? `/produk/${product.slug}`}
           className="btn bg-transparent text-black hover:bg-[#6b4e36] hover:text-white rounded-full px-8 py-2">
           Lihat
         </Link>

@@ -1,4 +1,6 @@
-export const kripikProducts = [
+import type { Product } from "./types";
+
+export const kripikProducts: Product[] = [
     {
       id: 1,
       name: "kripik kentang",
@@ -65,7 +67,7 @@ export const kripikProducts = [
       slug: "kripik-pisang",
       price: 15000,
       image: "/prod-k/prod-5.png",
-      link: "/produk/kripik-tempe",
+      link: "/produk/kripik-pisang",
       details: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
