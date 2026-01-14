@@ -44,3 +44,5 @@ Website ini dibangun menggunakan teknologi berikut:
 
 - JavaScript / React  
   Digunakan untuk logika dan interaksi pada website.
+  .
+  
