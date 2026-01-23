@@ -19,18 +19,7 @@ Project ini dikembangkan menggunakan **Next.js**, **Tailwind CSS**, dan **DaisyU
 
 ## Teknologi yang Digunakan
 
-Website ini dibangun menggunakan teknologi berikut:
-
-- Next.js  
-  Digunakan sebagai framework utama untuk membangun aplikasi React.
-
-- Tailwind CSS  
-  Digunakan untuk styling dan pengaturan layout berbasis utility-first.
-
-- DaisyUI  
-  Digunakan sebagai library komponen UI untuk mempercepat pengembangan antarmuka.
-
-- JavaScript / React  
-  Digunakan untuk logika dan interaksi pada website.
-  .
-  
+- Next.js
+- Tailwind CSS
+- DaisyUI
+- JavaScript / React
