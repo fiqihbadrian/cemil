@@ -9,23 +9,11 @@ Project ini dikembangkan menggunakan **Next.js**, **Tailwind CSS**, dan **DaisyU
 
 ## Fitur Utama
 
-Fitur yang tersedia dalam website ini meliputi:
-
-- Halaman Utama  
-  Menampilkan tampilan awal website dengan layout yang sederhana dan informatif.
-
-- Komponen UI  
-  Menggunakan komponen dari DaisyUI yang dikombinasikan dengan Tailwind CSS.
-
-- Responsive Design  
-  Tampilan website menyesuaikan dengan berbagai ukuran layar, baik desktop maupun mobile.
-
-- Struktur Project Next.js  
-  Penerapan struktur folder dan file yang rapi sesuai standar Next.js.
-
-- Custom Styling  
-  Penggunaan Tailwind CSS untuk mengatur desain dan tata letak secara konsisten.
-
+- Halaman Utama
+- Komponen UI
+- Responsive Design
+- Struktur Project Next.js
+- Custom Styling
 
 ---
 
